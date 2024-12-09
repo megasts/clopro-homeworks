@@ -33,7 +33,7 @@ Resource Terraform для Yandex Cloud:
 
 ### Ответ:
 
-Ссылка на манифесты: [манифесты Terraform](https://github.com/megasts/clopro-homeworks/blob/main/15.1/src)
+Ссылка на манифесты: [манифесты Terraform](https://github.com/megasts/clopro-homeworks/tree/15-1/15.1/src)
 
 После запуска 
 ```sh
@@ -44,31 +44,31 @@ terrafom apply
 были развернуты:
 1. Сеть
 
-![Screen1](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_22-52-21.png)
+![Screen1](https://github.com/megasts/clopro-homeworks/blob/15-1/15.1/img/2024-12-09_22-52-21.png)
 
 2. Подсети
 
-![Screen2](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_22-53-54.png)
+![Screen2](https://github.com/megasts/clopro-homeworks/blob/15-1/15.1/img/2024-12-09_22-53-54.png)
 
 3. Таблица маршрутизации
 
-![Screen3](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_22-55-00.png)
+![Screen3](https://github.com/megasts/clopro-homeworks/blob/15-1/15.1/img/2024-12-09_22-55-00.png)
 
 4. ВМ
 
-![Screen4](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_22-50-18.png)
+![Screen4](https://github.com/megasts/clopro-homeworks//blob/15-1/15.1/img/2024-12-09_22-50-18.png)
 
 
 Подключаемся к виртуалке с публичным IP и проверяем доступность интернета:
 
-![Screen5](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_23-03-09.png)
+![Screen5](https://github.com/megasts/clopro-homeworks//blob/15-1/15.1/img/2024-12-09_23-03-09.png)
 
 Подключаемся к виртуалке с внутренним IP с помощью команды:
 ``` sh
 ssh -o ProxyCommand="ssh -i ~/.ssh/id_ed25519 -W %h:%p ubuntu@130.193.57.15" -i ~/.ssh/id_ed25519 ubuntu@192.168.20.11
 ```
 
-![Screen5](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_23-09-41.png)
+![Screen5](https://github.com/megasts/clopro-homeworks//blob/15-1/15.1/2024-12-09_23-09-41.png)
 
 Как видно из скрина доступ к интернету имеется, сервис ifconfig.io возвращает публичный IP адресс NAT-инстанса. 
 
