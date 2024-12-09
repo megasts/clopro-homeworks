@@ -56,19 +56,19 @@ terrafom apply
 
 4. ВМ
 
-![Screen4](https://github.com/megasts/clopro-homeworks//blob/15-1/15.1/img/2024-12-09_22-50-18.png)
+![Screen4](https://github.com/megasts/clopro-homeworks/blob/15-1/15.1/img/2024-12-09_22-50-18.png)
 
 
 Подключаемся к виртуалке с публичным IP и проверяем доступность интернета:
 
-![Screen5](https://github.com/megasts/clopro-homeworks//blob/15-1/15.1/img/2024-12-09_23-03-09.png)
+![Screen5](https://github.com/megasts/clopro-homeworks/blob/15-1/15.1/img/2024-12-09_23-03-09.png)
 
 Подключаемся к виртуалке с внутренним IP с помощью команды:
 ``` sh
 ssh -o ProxyCommand="ssh -i ~/.ssh/id_ed25519 -W %h:%p ubuntu@130.193.57.15" -i ~/.ssh/id_ed25519 ubuntu@192.168.20.11
 ```
 
-![Screen5](https://github.com/megasts/clopro-homeworks//blob/15-1/15.1/2024-12-09_23-09-41.png)
+![Screen5](https://github.com/megasts/clopro-homeworks/blob/15-1/15.1/img/2024-12-09_23-09-41.png)
 
 Как видно из скрина доступ к интернету имеется, сервис ifconfig.io возвращает публичный IP адресс NAT-инстанса. 
 
