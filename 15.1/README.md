@@ -33,7 +33,32 @@ Resource Terraform для Yandex Cloud:
 
 ### Ответ:
 
-Ссылка на манифесты: [манифесты:](https://github.com/megasts/clopro-homeworks/blob/main/15.1/src)
+Ссылка на манифесты: [манифесты Terraform](https://github.com/megasts/clopro-homeworks/blob/main/15.1/src)
+
+После запуска 
+```sh
+
+terrafom apply
+
+```
+были развернуты:
+1. Сеть
+
+![Screen1](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_22-52-21.png)
+
+2. Подсети
+
+![Screen2](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_22-53-54.png)
+
+3. Таблица маршрутизации
+
+![Screen3](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_22-55-00.png)
+
+4. ВМ
+
+![Screen4](https://github.com/megasts/clopro-homeworks/blob/main/15.1/img/2024-12-09_22-50-18.png)
+
+
 
 ---
 
