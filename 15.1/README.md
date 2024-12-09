@@ -33,7 +33,7 @@ Resource Terraform для Yandex Cloud:
 
 ### Ответ:
 
-Ссылка на манифесты: /home/megion/Projects/Y-cloud/clopro-homeworks/15.1/src
+Ссылка на манифесты: [манифесты:](https://github.com/megasts/clopro-homeworks/blob/main/15.1/src)
 
 ---
 
