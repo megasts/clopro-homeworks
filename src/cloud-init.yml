@@ -1,0 +1,11 @@
+#cloud-config
+users:
+  - name: ${username}
+    groups: sudo
+    shell: /bin/bash
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    ssh_authorized_keys:
+      - ${ssh_public_key}
+
+runcmd:
+  - echo '<img src="https://storage.yandexcloud.net/${bucket_name}/${object_name}" />' > /var/www/html/index.html
