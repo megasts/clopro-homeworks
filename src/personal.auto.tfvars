@@ -1,0 +1,6 @@
+service_account_key_file = "~/.ssh/authorized_key.json"
+folder_id = "b1g8obut7iuv7egloc26"
+service_account_id = "ajef1jrjpf2nolb35798"
+vms_ssh_root_key = "~/.ssh/id_ed25519.pub"
+network_name = "megion-net"
+os_image_id = "fd827b91d99psvq5fjit"
